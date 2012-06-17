@@ -1,19 +1,21 @@
-##VSiteParser##
+##Description##
 
-###This is a Chines native video website URL parser.###
+###VSiteParser is a Chines native video website URL parser.###
 
-With it,you can parse a video URL for some Chines native video website such as Youku,Tudou,56,etc.
+With it,you can parse a video URL of some Chines native video website such as Youku,Tudou,56,etc.
 
-**You just need to do a few like below:**
+##Now, code describes everything##
+
+**You just need to do a few as follow:**
 
 ` var url = VideoParser("youku","http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html"); `
 
-**And now you can try to output the varible "url":**
-
-` document.write(url) `
-
-**All you will see is**
+**And now you can try to output the varible "url"** ( to use ` document.write(url) `)**. All you will see is:**
 
 ` http://player.youku.com/player.php/sid/XMjc3ODU4OTMy/v.swf `
+
+##Direction##
+
+
 
 VideoParser is a function that can return the .swf site.
