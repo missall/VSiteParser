@@ -4,6 +4,20 @@
 
 With it,you can parse a video URL of some Chines native video website such as Youku,Tudou,56,etc.
 
+##Support##
+
+The web that VSiteParser has supported:
+
+* [Youku](http://www.youku.com)
+
+* [Tudou](http://www.tudou.com)
+
+* [56](http://www.56.com)
+
+* [ku6](http://www.ku6.com)
+
+* [ifeng](http://www.ifeng.com)
+
 ##Make it work##
 
 ` <script src="../vsparser.js"></script> `
@@ -13,7 +27,7 @@ With it,you can parse a video URL of some Chines native video website such as Yo
 **You just need to do a few as follow:**
 
 ```
-var url = vsarser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var url = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
 **And now you can try to output the varible "url"** ( to use ` document.write(url) `)**. All you will see is:**
