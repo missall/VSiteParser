@@ -36,4 +36,4 @@ var url = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 
 ##Direction##
 
-After the description above,you may already know,there is a function named "VSParser" that return the flash URL of the video URL you given as an argument.**This is the core of VSiteParser** because depending on your own ideas,you can make many awesome stuff with this SWF site,such as embed the video on the webpage.I have already made it in the "examples" file.
+After the description above,you may already know,there is a function named "VSParser" that return the flash URL of the video URL you given as an argument.**This is the core of VSiteParser** because depending on your own ideas,you can make many awesome stuff with this SWF site,such as embed the video on the webpage.I have already made it in the ["examples" file](https://github.com/djyde/VSiteParser/tree/master/examples).
