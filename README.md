@@ -13,7 +13,7 @@ With it,you can parse a video URL of some Chines native video website such as Yo
 **You just need to do a few as follow:**
 
 ```
-var url = VSParser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var url = vsarser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
 **And now you can try to output the varible "url"** ( to use ` document.write(url) `)**. All you will see is:**
