@@ -1,0 +1,17 @@
+{
+  "author": "Randy <randypriv@gmail.com>",
+  "name": "vsiteparser",
+  "description": "A video website URL parser",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/djyde/VSiteParser.git"
+  },
+  "main": "vsparser",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
