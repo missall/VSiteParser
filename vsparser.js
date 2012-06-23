@@ -3,6 +3,7 @@ var five6 = "www.56.com";
 var tudou = "www.tudou.com";
 var ku6 = "v.ku6.com";
 var ifeng = "v.ifeng.com";
+var bilibili = "www.bilibili.tv";
 
 function vsparser(url){
 	var v_type = url.split("/")[2];
@@ -26,6 +27,9 @@ function vsparser(url){
 	}else if(v_type == ifeng){
 		var v_id = url.split("/")[6].slice(0,36);
 		return "http://v.ifeng.com/include/exterior.swf?AutoPlay=false&guid=" + v_id;
+	}else if(v_type == bilibili){
+		var v_id = url.split("/")[4].slice(2,8);
+		return "http://static.loli.my/miniloader.swf?aid=" + v_id + "&page=1";
 	}
 }
 
