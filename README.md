@@ -4,11 +4,19 @@
 
 With it,you can parse a video URL of some Chinese native video website such as Youku,Tudou,56,etc.
 
+**Just like this:**
+
+![Inser Example]("http://djyde.github.com/img/vsp.png")
+
 ##概述##
 
 ###VSiteParser是一个中国本土化视频地址解析工具.###
 
 你可以利用它解析如优酷,土豆,56等在线视频地址.
+
+**就像这样:**
+
+![Inser Example]("http://djyde.github.com/img/vsp.png")
 
 ##Support##
 
