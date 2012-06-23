@@ -44,21 +44,49 @@ VSiteParser已经支持的有:
 
 ##Make it work##
 
+in **HTML**:
+
 ` <script src="../vsparser.js"></script> `
+
+in **Node.js**:
+
+```
+$ npm install vsparser
+```
+
+` var vps = require("vsiteparser"); `
 
 ##使用##
 
+**HTML中**:
+
 ` <script src="../vsparser.js"></script> `
+
+**Node.js**中:
+
+```
+$ npm install vsparser
+```
+
+` var vps = require("vsiteparser"); `
 
 ##Now, code describes everything##
 
 **You just need to do a few as follow:**
 
+**in HTML**
+
 ```
-var url = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
-**And now you can try to output the varible "url"** ( to use ` document.write(url) `)**. All you will see is:**
+**in Node.js**
+
+```
+var swf = vps.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+```
+
+**And now you can try to output the varible "swf"** ( to use ` document.write(swf) `)**. All you will see is:**
 
 ` http://player.youku.com/player.php/sid/XMjc3ODU4OTMy/v.swf `
 
@@ -66,18 +94,26 @@ var url = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 
 **你需要做的只是像下面一样:**
 
+**HTML中**
+
 ```
-var url = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
-**现在你可以尝试输出"url"这个变量** ( 用 ` document.write(url) `)**. 你会看到的是:**
+**Node.js中**
+
+```
+var swf = vps.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+```
+
+**现在你可以尝试输出"swf"这个变量** ( 用 ` document.write(swf) `)**. 你会看到的是:**
 
 ` http://player.youku.com/player.php/sid/XMjc3ODU4OTMy/v.swf `
 
 ##Direction##
 
-After the description above,you may already know,there is a function named "vsparser" that return the flash URL of the video URL you given as an argument.**This is the core of VSiteParser** because depending on your own ideas,you can make many awesome stuff with this SWF site,such as embed the video on the webpage.I have already made it in the ["examples" file](https://github.com/djyde/VSiteParser/tree/master/examples).
+After the description above,you may already know,there is a function named "vsparser" that return the flash URL of the video URL you given as an argument.**This is the core of VSiteParser** because depending on your own ideas,you can make many awesome stuff with this SWF site,such as embed the video on the webpage.I have already made it in the [examples file](https://github.com/djyde/VSiteParser/tree/master/examples).
 
 ##有何用处?##
 
-通过以上的概述，你也许已经知道，VSiteParser通过一个名叫vsparser的函数，利用你所给的URL参数返回一个flash URL。**这就是VSiteParser的核心部分**，因为只要你能想到，你就能利用这个swf地址做一些非常有趣的事情，比如把在线视频嵌入到你的页面之中。我已经做好了一个例子在 ["examples" file](https://github.com/djyde/VSiteParser/tree/master/examples) 里提供大家参考。
+通过以上的概述，你也许已经知道，VSiteParser通过一个名叫vsparser的函数，利用你所给的URL参数返回一个flash URL。**这就是VSiteParser的核心部分**，因为只要你能想到，你就能利用这个swf地址做一些非常有趣的事情，比如把在线视频嵌入到你的页面之中。我已经做好了一个例子在 [examples file](https://github.com/djyde/VSiteParser/tree/master/examples) 里提供大家参考。
