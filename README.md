@@ -24,6 +24,8 @@ The web that VSiteParser has supported:
 
 * [ifeng](http://www.ifeng.com)
 
+* [bilibili](http://www.bilibili.tv)
+
 ##支持##
 
 VSiteParser已经支持的有:
@@ -37,6 +39,8 @@ VSiteParser已经支持的有:
 * [酷6](http://www.ku6.com)
 
 * [凤凰网](http://www.ifeng.com)
+
+* [bilibili](http://www.bilibili.tv)
 
 ##Make it work##
 
