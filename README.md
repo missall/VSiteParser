@@ -54,7 +54,9 @@ VSiteParser已经支持的有:
 
 in **HTML**:
 
-` <script src="../vsparser.js"></script> `
+```
+<script src="../vsparser.js"></script>
+```
 
 in **Node.js**:
 
@@ -62,13 +64,17 @@ in **Node.js**:
 $ npm install vsparser
 ```
 
-` var vps = require("vsiteparser"); `
+```
+var vps = require("vsiteparser"); 
+```
 
 ##使用##
 
 **HTML中**:
 
-` <script src="../vsparser.js"></script> `
+```
+<script src="../vsparser.js"></script>
+```
 
 **Node.js**中:
 
@@ -76,7 +82,9 @@ $ npm install vsparser
 $ npm install vsparser
 ```
 
-` var vps = require("vsiteparser"); `
+```
+var vps = require("vsiteparser"); 
+```
 
 ##Now, code describes everything##
 
