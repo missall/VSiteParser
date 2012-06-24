@@ -1,8 +1,9 @@
 {
-  "author": "Randy <randypriv@gmail.com>",
+  "author": "Randy <randypriv@gmail.com> (http://djyde.github.com)",
   "name": "vsiteparser",
-  "description": "A video website URL parser",
-  "version": "0.1.1",
+  "description": "An on-line video URL parser",
+  "version": "0.1.6",
+  "homepage": "https://github.com/djyde/VSiteParser",
   "repository": {
     "type": "git",
     "url": "git://github.com/djyde/VSiteParser.git"
