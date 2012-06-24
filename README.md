@@ -39,7 +39,7 @@ $ npm install vsparser
 ```
 
 ```
-var vps = require("vsiteparser"); 
+var vsp = require("vsiteparser"); 
 ```
 
 ##Now, code describes everything##
@@ -55,7 +55,7 @@ var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 **in Node.js**
 
 ```
-var swf = vps.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var swf = vsp.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
 **And now you can try to output the varible "swf"** ( to use ` document.write(swf) `)**. All you will see is:**
@@ -108,7 +108,7 @@ $ npm install vsparser
 ```
 
 ```
-var vps = require("vsiteparser");
+var vsp = require("vsiteparser");
 ```
 
 ##现在,让代码来诠释一切##
@@ -124,7 +124,7 @@ var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 **Node.js中**
 
 ```
-var swf = vps.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+var swf = vsp.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
 ```
 
 **现在你可以尝试输出"swf"这个变量** ( 用 ` document.write(swf) `)**. 你会看到的是:**
