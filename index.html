@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Vsiteparser by djyde</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/djyde/VSiteParser">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Vsiteparser</h1>
+            <h2>A Chines native video website URL parser</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/djyde/VSiteParser/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/djyde/VSiteParser/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>Description(English Version)</h1>
+
+<h3>VSiteParser is a Chinese native video website URL parser.</h3>
+
+<p>With it,you can parse a video URL of some Chinese native video website such as Youku,Tudou,56,etc.</p>
+
+<p><strong>Just like this:</strong></p>
+
+<p><img src="http://djyde.github.com/img/vsp.png" alt=""></p>
+
+<h2>Support</h2>
+
+<p>The web that VSiteParser has supported:</p>
+
+<ul>
+<li><p><a href="http://www.youku.com">Youku</a></p></li>
+<li><p><a href="http://www.tudou.com">Tudou</a></p></li>
+<li><p><a href="http://www.56.com">56</a></p></li>
+<li><p><a href="http://www.ku6.com">ku6</a></p></li>
+<li><p><a href="http://www.ifeng.com">ifeng</a></p></li>
+<li><p><a href="http://www.bilibili.tv">bilibili</a></p></li>
+</ul><h2>Make it work</h2>
+
+<p>in <strong>HTML</strong>:</p>
+
+<pre><code>&lt;script src="../vsparser.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>in <strong>Node.js</strong>:</p>
+
+<pre><code>$ npm install vsparser
+</code></pre>
+
+<pre><code>var vsp = require("vsiteparser"); 
+</code></pre>
+
+<h2>Now, code describes everything</h2>
+
+<p><strong>You just need to do a few as follow:</strong></p>
+
+<p><strong>in HTML</strong></p>
+
+<pre><code>var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+</code></pre>
+
+<p><strong>in Node.js</strong></p>
+
+<pre><code>var swf = vsp.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+</code></pre>
+
+<p><strong>And now you can try to output the varible "swf"</strong> ( to use <code>document.write(swf)</code>)<strong>. All you will see is:</strong></p>
+
+<p><code>http://player.youku.com/player.php/sid/XMjc3ODU4OTMy/v.swf</code></p>
+
+<h2>Direction</h2>
+
+<p>After the description above,you may already know,there is a function named "vsparser" that return the flash URL of the video URL you given as an argument.<strong>This is the core of VSiteParser</strong> because depending on your own ideas,you can make many awesome stuff with this SWF site,such as embed the video on the webpage.I have already made it in the <a href="https://github.com/djyde/VSiteParser/tree/master/examples">examples file</a>.</p>
+
+<h1>概述(中文版)</h1>
+
+<h3>VSiteParser是一个中国本土化视频地址解析框架.</h3>
+
+<p>你可以利用它解析如优酷,土豆,56等在线视频地址.</p>
+
+<p><strong>就像这样:</strong></p>
+
+<p><img src="http://djyde.github.com/img/vsp.png" alt=""></p>
+
+<h2>支持</h2>
+
+<p>VSiteParser已经支持的有:</p>
+
+<ul>
+<li><p><a href="http://www.youku.com">优酷</a></p></li>
+<li><p><a href="http://www.tudou.com">土豆</a></p></li>
+<li><p><a href="http://www.56.com">56</a></p></li>
+<li><p><a href="http://www.ku6.com">酷6</a></p></li>
+<li><p><a href="http://www.ifeng.com">凤凰网</a></p></li>
+<li><p><a href="http://www.bilibili.tv">bilibili</a></p></li>
+</ul><h2>使用</h2>
+
+<p><strong>HTML中</strong>:</p>
+
+<pre><code>&lt;script src="../vsparser.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p><strong>Node.js</strong>中:</p>
+
+<pre><code>$ npm install vsparser
+</code></pre>
+
+<pre><code>var vsp = require("vsiteparser");
+</code></pre>
+
+<h2>现在,让代码来诠释一切</h2>
+
+<p><strong>你需要做的只是像下面一样:</strong></p>
+
+<p><strong>HTML中</strong></p>
+
+<pre><code>var swf = vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+</code></pre>
+
+<p><strong>Node.js中</strong></p>
+
+<pre><code>var swf = vsp.vsparser("http://v.youku.com/v_show/id_XMjc3ODU4OTMy.html");
+</code></pre>
+
+<p><strong>现在你可以尝试输出"swf"这个变量</strong> ( 用 <code>document.write(swf)</code>)<strong>. 你会看到的是:</strong></p>
+
+<p><code>http://player.youku.com/player.php/sid/XMjc3ODU4OTMy/v.swf</code></p>
+
+<h2>有何用处?</h2>
+
+<p>通过以上的概述，你也许已经知道，VSiteParser通过一个名叫vsparser的函数，利用你所给的URL参数返回一个flash URL。<strong>这就是VSiteParser的核心部分</strong>，因为只要你能想到，你就能利用这个swf地址做一些非常有趣的事情，比如把在线视频嵌入到你的页面之中。我已经做好了一个例子在 <a href="https://github.com/djyde/VSiteParser/tree/master/examples">examples file</a> 里提供大家参考。</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/djyde">djyde</a> can be found on <a href="https://github.com/djyde/VSiteParser">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32892700-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
