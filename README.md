@@ -35,7 +35,7 @@ in **HTML**:
 in **Node.js**:
 
 ```
-$ npm install vsparser
+$ npm install vsiteparser
 ```
 
 ```
@@ -104,7 +104,7 @@ VSiteParser已经支持的有:
 **Node.js**中:
 
 ```
-$ npm install vsparser
+$ npm install vsiteparser
 ```
 
 ```
