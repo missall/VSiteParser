@@ -69,7 +69,7 @@ After the description above,you may already know,there is a function named "vspa
 
 #概述(中文版)#
 
-###VSiteParser是一个中国本土化视频地址解析框架.###
+###VSiteParser是一个中国本土化视频地址解析模块.###
 
 你可以利用它解析如优酷,土豆,56等在线视频地址.
 
